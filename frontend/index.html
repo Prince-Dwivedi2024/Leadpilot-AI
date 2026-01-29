@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Lead Qualification Tool</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h2>AI Lead Qualification</h2>
+
+  <input id="name" placeholder="Name" />
+  <input id="role" placeholder="Background / Role" />
+  <input id="problem" placeholder="Problem Statement" />
+  <input id="urgency" type="number" min="1" max="5" placeholder="Urgency (1-5)" />
+
+  <button onclick="submitLead()">Qualify Lead</button>
+
+  <pre id="output"></pre>
+
+  <script src="app.js"></script>
+</body>
+</html>
